@@ -1,30 +1,19 @@
 # 📊 Data Generation using Modelling and Simulation for Machine Learning
----
 
-# 🎯 Objective
-
-The objective of this assignment is to:
-
-1. Select a simulation tool.
-2. Generate synthetic data using modelling and simulation.
-3. Run 1000 simulations.
-4. Train multiple Machine Learning models.
-5. Compare performance.
-6. Report the best model.
+## 🎯 Objective
+To generate synthetic data using simulation, run 1000 experiments, train multiple ML models, compare their performance, and identify the best model.
 
 ---
 
-# 🛠 Simulation Tool Used
+## 🛠 Simulation Tool Used
 
-**SimPy (Discrete Event Simulation Library in Python)**
+**SimPy (Discrete Event Simulation in Python)**
 
-Modeled a **Single Server Queue System**:
-
-- Customers arrive randomly (Poisson distribution)
-- Service time follows exponential distribution
+We modeled a **Single Server Queue System** where:
+- Customer arrivals follow a Poisson process
+- Service times follow an exponential distribution
 - System capacity varies
-- Output measured: Average Waiting Time
-
+- Output measured: **Average Waiting Time**
 ---
 
 # ⚙️ Parameter Bounds
@@ -145,8 +134,5 @@ This project demonstrates that:
 - Machine Learning models can predict system performance.
 - Nonlinear models perform better for queue systems.
 - KNN achieved the best accuracy among tested models.
-
----
-odel reported  
 
 ---
