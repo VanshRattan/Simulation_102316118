@@ -1,11 +1,11 @@
-# 📊 Data Generation using Modelling and Simulation for Machine Learning
+# Data Generation using Modelling and Simulation for Machine Learning
 
-## 🎯 Objective
+##  Objective
 To generate synthetic data using simulation, run 1000 experiments, train multiple ML models, compare their performance, and identify the best model.
 
 ---
 
-## 🛠 Simulation Tool Used
+##  Simulation Tool Used
 
 **SimPy (Discrete Event Simulation in Python)**
 
@@ -16,7 +16,7 @@ We modeled a **Single Server Queue System** where:
 - Output measured: **Average Waiting Time**
 ---
 
-# ⚙️ Parameter Bounds
+# Parameter Bounds
 
 | Parameter | Lower Bound | Upper Bound |
 |------------|------------|------------|
@@ -29,7 +29,7 @@ Total simulations generated: **1000**
 
 ---
 
-# 🔄 Methodology Flowchart
+# Methodology Flowchart
 
 ```
 Start
@@ -57,7 +57,7 @@ End
 
 ---
 
-# 📊 Dataset Description
+# Dataset Description
 
 **Input Features:**
 - arrival_rate
@@ -71,7 +71,7 @@ Total Dataset Size: 1000 rows
 
 ---
 
-# 📈 Result Graphs
+#  Result Graphs
 
 ##  Distribution of Average Waiting Time
 
@@ -79,19 +79,19 @@ Total Dataset Size: 1000 rows
 
 ---
 
-## 3️⃣ Model Performance Table
+##  Model Performance Table
 <img width="396" height="230" alt="image" src="https://github.com/user-attachments/assets/26974eda-685c-48a7-bebd-93789fa330f4" />
 
 
 ---
 
-## 4️⃣ Model Comparison Graph (R2 Score)
+##  Model Comparison Graph (R2 Score)
 
 <img width="945" height="465" alt="image" src="https://github.com/user-attachments/assets/e9d8268d-1339-493c-8643-3effa7925c23" />
 
 ---
 
-# 🤖 Machine Learning Models Used
+# Machine Learning Models Used
 
 - Linear Regression  
 - Decision Tree  
@@ -102,7 +102,7 @@ Total Dataset Size: 1000 rows
 
 ---
 
-# 📋 Model Performance Summary
+# Model Performance Summary
 
 | Model | R2 Score |
 |--------|----------|
@@ -115,7 +115,7 @@ Total Dataset Size: 1000 rows
 
 ---
 
-# 🏆 Best Model
+# Best Model
 
 **K-Nearest Neighbors (KNN)**
 
@@ -126,7 +126,7 @@ Reason:
 
 ---
 
-# 🧠 Conclusion
+# Conclusion
 
 This project demonstrates that:
 
